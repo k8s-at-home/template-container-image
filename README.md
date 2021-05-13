@@ -6,8 +6,7 @@ The [.github](.github) folder will get PRs from the template so you get the late
 
 ## Prereqs
 
-You need to create the following secrets:
-- GH_PAT # Needed for [PRs from template](https://github.com/marketplace/actions/repo-file-sync-action)
+You need to create the following secrets (not needed within the k8s-at-home org):
 - GHCR_USER # Needed to upload container to the Github Container Registry
 - GHCR_TOKEN # Needed to upload container to the Github Container Registry
 
