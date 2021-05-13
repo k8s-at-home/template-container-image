@@ -13,7 +13,7 @@ jobs:
       with:
         fetch-depth: 1
     - name: File Sync
-      uses: kbrashears5/github-action-file-sync@v2.0.0
+      uses: kbrashears5/github-action-file-sync@v2.2.0
       with:
         REPOSITORIES: |
           k8s-at-home/template-container-image
