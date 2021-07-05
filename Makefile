@@ -1,6 +1,6 @@
 
 # Image URL to use all building/pushing image targets
-IMG ?= template-container-image:latest
+IMG ?= IMG ?= $(shell basename $(CURDIR)):latest
 
 # Run tests
 test: build

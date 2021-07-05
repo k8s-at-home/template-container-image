@@ -4,7 +4,12 @@ Template for k8s-at-home containers. You can use it to as base to create your co
 
 The [.github](.github) folder will get PRs from this template so you can apply the latest workflows.
 
-## Prereqs
+## How to use
+
+This is a template so the resulting docker does not have any function. Here you should include the
+instructions for your container or a link to the helm chart where it is used.
+
+## Prereqs for GitHub workflows
 
 You need to create the following secrets (not needed within the k8s-at-home org - there we use org-wide secrets):
 - WORKFLOW_REPO_SYNC_TOKEN # Needed to do PRs that update the workflows
